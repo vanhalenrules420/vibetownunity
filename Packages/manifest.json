@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.justinpbarnett.unity-mcp": "https://github.com/justinpbarnett/unity-mcp.git",
     "com.unity.feature.2d": "2.0.1",
     "com.unity.multiplayer.center": "1.0.0",
     "com.unity.ugui": "2.0.0",
@@ -34,7 +35,6 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.seanba.super-tiled2unity": "https://github.com/Seanba/SuperTiled2Unity.git"
+    "com.unity.modules.xr": "1.0.0"
   }
 }

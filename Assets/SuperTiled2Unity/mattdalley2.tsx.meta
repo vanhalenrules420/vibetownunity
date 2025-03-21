@@ -8,8 +8,16 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
-  importerVersion: 20
+  missingFiles: []
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 13
   pixelsPerUnit: 100
   edgesPerEllipse: 32
-  numberOfObjectsImported: 1218
-  colliderType: 0
+  numberOfObjectsImported: 2435
+  useSpriteAtlas: 1
+  atlasWidth: 2048
+  atlasHeight: 2048

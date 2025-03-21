@@ -5,9 +5,6 @@ TextureImporter:
   - first:
       213: 5665649558731315894
     second: mattdalley_f2_0
-  - first:
-      213: -5462164232524417517
-    second: mattdalley_f2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,19 +109,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -137,7 +121,7 @@ TextureImporter:
         width: 1292
         height: 658
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,33 +134,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: mattdalley_f2_1
-      rect:
-        serializedVersion: 2
-        x: 1167
-        y: 624
-        width: 273
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 316b98ff19e7234b0800000000000000
-      internalID: -5462164232524417517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 74eec71b280ee4b3d9aa5faddf47d678
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mattdalley_f2_0: 5665649558731315894
-      mattdalley_f2_1: -5462164232524417517
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
