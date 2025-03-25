@@ -16,13 +16,6 @@ public class NetworkManagerScript : MonoBehaviour
     // Subscribe to the client connection event BEFORE starting the host
     NetworkManager.Singleton.OnClientConnectedCallback += SpawnPlayer;
     Debug.Log("OnClientConnectedCallback registered.");
-
-    // Start host automatically for testing
-    if (!NetworkManager.Singleton.IsClient && !NetworkManager.Singleton.IsServer)
-    {
-        NetworkManager.Singleton.StartHost();
-        Debug.Log("Host started");
-    }
 }
 
     private void SpawnPlayer(ulong clientId)
@@ -47,5 +40,11 @@ public class NetworkManagerScript : MonoBehaviour
     }
 
     netObj.SpawnAsPlayerObject(clientId);
-}
+    }
+
+
+    public void StartClient()
+    {
+        NetworkManager.Singleton.StartClient();
+    }
 }

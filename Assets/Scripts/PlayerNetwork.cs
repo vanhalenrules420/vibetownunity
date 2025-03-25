@@ -1,5 +1,7 @@
 using UnityEngine;
 using Unity.Netcode;
+using Unity.Services.Vivox;
+using Unity.Services.Authentication;
 
 public class PlayerNetwork : NetworkBehaviour
 {
@@ -30,6 +32,11 @@ public class PlayerNetwork : NetworkBehaviour
         }
     }
 
+    void Start()
+    {
+        if (IsOwner) VivoxManager.Instance.SetLocalPlayer(this.gameObject, OwnerClientId);
+
+    }
     private void Update()
     {
         if (IsOwner)
