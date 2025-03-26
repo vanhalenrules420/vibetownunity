@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2923b65410946fb4d96d49f70fedc246
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206903
+  packageName: PlayFlow Cloud
+  packageVersion: 13.0
+  assetPath: Assets/PlayFlowCloud/README.txt
+  uploadId: 728487

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 30f2c90598228a74797da5cddda1610e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206903
+  packageName: PlayFlow Cloud
+  packageVersion: 13.0
+  assetPath: Assets/PlayFlowCloud/Editor/PlayFlowConfig.cs
+  uploadId: 728487

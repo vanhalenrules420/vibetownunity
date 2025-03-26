@@ -1,14 +1,16 @@
 using UnityEngine;
+using Mirror;
+using Unity.Cinemachine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
     public float moveSpeed = 5f;
 
     private Rigidbody2D rb;
     private Animator animator;
-    private Vector2 moveInput;
-    private Vector2 lastMoveDirection = Vector2.down;  // Default idle direction (down)
+    private Vector2 lastMoveDirection = Vector2.down; // Default idle direction (down)
 
+    Vector2 lastMoveInput;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -17,28 +19,39 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        // Get movement input from Legacy Input System
-        float moveX = Input.GetAxisRaw("Horizontal");  // A/D or Left/Right Arrow
-        float moveY = Input.GetAxisRaw("Vertical");    // W/S or Up/Down Arrow
-        
-        moveInput = new Vector2(moveX, moveY).normalized;
+        if (!isLocalPlayer) return; // Only local player processes input
 
-        // If moving, update last move direction
-        if (moveInput.magnitude > 0)
+        if(GameManager.Instance.cinemachineCamera.Target.TrackingTarget == null)
         {
-            lastMoveDirection = moveInput;
+            GameManager.Instance.cinemachineCamera.Target.TrackingTarget = this.transform;     
         }
 
-        // Update Animator parameters
-        animator.SetFloat("Speed", moveInput.magnitude);
+        float moveX = Input.GetAxisRaw("Horizontal");  // A/D or Left/Right Arrow
+        float moveY = Input.GetAxisRaw("Vertical");    // W/S or Up/Down Arrow
 
-        // If moving, use current direction, else use last direction
-        animator.SetFloat("Horizontal", moveInput.magnitude > 0 ? moveInput.x : lastMoveDirection.x);
-        animator.SetFloat("Vertical", moveInput.magnitude > 0 ? moveInput.y : lastMoveDirection.y);
+        var moveInput = new Vector2(moveX, moveY).normalized;
+        
+        if(lastMoveInput != moveInput)
+        {
+            CmdMove(moveInput);
+            lastMoveInput = moveInput;
+        }
     }
 
-    private void FixedUpdate()
+    [Command]
+    private void CmdMove(Vector2 input)
     {
-        rb.linearVelocity = moveInput * moveSpeed;
+        if (input.magnitude > 0)
+        {
+            lastMoveDirection = input;
+        }
+
+        // Server processes movement
+        rb.linearVelocity = input * moveSpeed;
+
+        // Update Animator parameters (NetworkAnimator will sync this)
+        animator.SetFloat("Speed", input.magnitude);
+        animator.SetFloat("Horizontal", input.magnitude > 0 ? input.x : lastMoveDirection.x);
+        animator.SetFloat("Vertical", input.magnitude > 0 ? input.y : lastMoveDirection.y);
     }
 }

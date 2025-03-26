@@ -27,21 +27,21 @@ public class VivoxManager : MonoBehaviour
         VivoxService.Instance.LoggedIn += onLoggedIn;
         VivoxService.Instance.LoggedOut += onLoggedOut;
 
-        LoginUserAsync();
-    
     }
 
-    public void SetLocalPlayer(GameObject player, ulong ClientID)
+    public void SetLocalPlayer(GameObject player, ulong clientId)
     {
         _localPlayerGameObject = player;
-        _playerName = "Player" + ClientID + Guid.NewGuid().ToString().Substring(0, 8);
+        _playerName = "Player" + clientId;
 
-        Debug.Log(_playerName);
+        LoginUserAsync();
     }
 
 
     async Task LoginUserAsync()
     {
+        Debug.Log(_playerName);
+        
         // For this example, the VivoxService is initialized.
         var loginOptions = new LoginOptions()
         {
@@ -65,39 +65,65 @@ public class VivoxManager : MonoBehaviour
 
        public void JoinPositionalChannel()
     {
-        VivoxService.Instance.JoinPositionalChannelAsync(
+        VivoxService.Instance.JoinGroupChannelAsync(
             channelName, 
-            ChatCapability.TextAndAudio, 
-            new Channel3DProperties(25, 5, 1.0f, AudioFadeModel.InverseByDistance)
-        ); 
+            ChatCapability.TextAndAudio
+            ); 
     }
 
     void Update()
-{
-    if (Time.time > _nextPosUpdate && VivoxService.Instance.IsLoggedIn)
     {
-        if (_localPlayerGameObject != null && VivoxService.Instance.ActiveChannels.ContainsKey(channelName))
+        if(VivoxService.Instance == null) return;
+        
+        if (Time.time > _nextPosUpdate && VivoxService.Instance.IsLoggedIn)
         {
-            VivoxService.Instance.Set3DPosition(_localPlayerGameObject, channelName);
+            AdjustVoiceForProximity();
+            _nextPosUpdate = Time.time + 0.3f; // Update every 0.3 seconds
         }
-        _nextPosUpdate += 0.3f; // Update every 0.3 seconds
+    }
+
+    void AdjustVoiceForProximity()
+{
+    if (_localPlayerGameObject == null) return;
+
+    foreach (var player in GameObject.FindGameObjectsWithTag("Player"))
+    {
+        if (player != _localPlayerGameObject)
+        {
+
+        float distance = Vector3.Distance(_localPlayerGameObject.transform.position, player.transform.position);
+
+        if (VivoxService.Instance.ActiveChannels.ContainsKey(channelName))
+        {
+            foreach (var participant in VivoxService.Instance.ActiveChannels[channelName])
+            {                
+                // if(participant.DisplayName == "Player" + player.GetComponent<NetworkObject>().OwnerClientId)
+                // {
+                //     participant.SetLocalVolume((int)distance * -2);
+                // }
+            }
+        }
+        }
     }
 }
 
 public void MuteToggle()
 {
-    if(VivoxService.Instance.IsInputDeviceMuted)
+    if (VivoxService.Instance.IsInputDeviceMuted)
     {
         VivoxService.Instance.UnmuteInputDevice();
+        Debug.Log("Microphone Unmuted");
     }
     else
     {
         VivoxService.Instance.MuteInputDevice();
+        Debug.Log("Microphone Muted");
     }
 }
 
 private async void OnDestroy()
 {
+
     if (VivoxService.Instance.IsLoggedIn)
     {
         await VivoxService.Instance.LogoutAsync();
