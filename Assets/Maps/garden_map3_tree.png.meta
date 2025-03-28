@@ -1,0 +1,805 @@
+fileFormatVersion: 2
+guid: 87392763a62e9a04a84904d7eedc7323
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3435102809620381087
+    second: garden_map3_tree_0
+  - first:
+      213: -8606287376576241662
+    second: garden_map3_tree_1
+  - first:
+      213: 3803551457713750772
+    second: garden_map3_tree_2
+  - first:
+      213: -3525258656449110503
+    second: garden_map3_tree_3
+  - first:
+      213: 4163979179672889338
+    second: garden_map3_tree_4
+  - first:
+      213: -1374519122409203412
+    second: garden_map3_tree_5
+  - first:
+      213: -3911744938476119032
+    second: garden_map3_tree_6
+  - first:
+      213: 7958260924314570969
+    second: garden_map3_tree_7
+  - first:
+      213: 4715171464364968393
+    second: garden_map3_tree_8
+  - first:
+      213: 4717755383348428766
+    second: garden_map3_tree_9
+  - first:
+      213: -7935947881604562319
+    second: garden_map3_tree_10
+  - first:
+      213: 2649505567963218831
+    second: garden_map3_tree_11
+  - first:
+      213: -7615357531340527366
+    second: garden_map3_tree_12
+  - first:
+      213: -6415559053541551842
+    second: garden_map3_tree_13
+  - first:
+      213: -4095353794642345457
+    second: garden_map3_tree_14
+  - first:
+      213: -8584663504424200046
+    second: garden_map3_tree_15
+  - first:
+      213: 6837561473120870842
+    second: garden_map3_tree_16
+  - first:
+      213: 2139159891599466125
+    second: garden_map3_tree_17
+  - first:
+      213: 1575364576324616433
+    second: garden_map3_tree_18
+  - first:
+      213: 1557822244705984930
+    second: garden_map3_tree_19
+  - first:
+      213: 5258464447448266704
+    second: garden_map3_tree_20
+  - first:
+      213: 6268106925595160818
+    second: garden_map3_tree_21
+  - first:
+      213: -7987426375908144251
+    second: garden_map3_tree_22
+  - first:
+      213: 5349567235937755722
+    second: garden_map3_tree_23
+  - first:
+      213: -8780155309380044129
+    second: garden_map3_tree_24
+  - first:
+      213: 1336570456224110036
+    second: garden_map3_tree_25
+  - first:
+      213: -3395692639433741788
+    second: garden_map3_tree_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: garden_map3_tree_0
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 341
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16281a1d1301450d0800000000000000
+      internalID: -3435102809620381087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_1
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 355
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200ae34aa33509880800000000000000
+      internalID: -8606287376576241662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_2
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 311
+        width: 115
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f282f116ede8c430800000000000000
+      internalID: 3803551457713750772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_3
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 363
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91edaf8fde3c31fc0800000000000000
+      internalID: -3525258656449110503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_4
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 333
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af76680900d69c930800000000000000
+      internalID: 4163979179672889338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_5
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 311
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2951d3042abcece0800000000000000
+      internalID: -1374519122409203412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 311
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cd23a24b0b6b9c0800000000000000
+      internalID: -3911744938476119032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_7
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 311
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d054af552c617e60800000000000000
+      internalID: 7958260924314570969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_8
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 330
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9488cf677af6140800000000000000
+      internalID: 4715171464364968393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_9
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 293
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf7ba18685d87140800000000000000
+      internalID: 4717755383348428766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_10
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 271
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17242f8b279ddd190800000000000000
+      internalID: -7935947881604562319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_11
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 300
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f830ed0c64fe4c420800000000000000
+      internalID: 2649505567963218831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_12
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 269
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af82ad25ca0d05690800000000000000
+      internalID: -7615357531340527366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_13
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 298
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e115d1a280b57f6a0800000000000000
+      internalID: -6415559053541551842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 261
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f028bc00c616a27c0800000000000000
+      internalID: -4095353794642345457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_15
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 265
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2981986b6062dd880800000000000000
+      internalID: -8584663504424200046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_16
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 215
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1244fcee5e3ee50800000000000000
+      internalID: 6837561473120870842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_17
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 169
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e9c807692dfad10800000000000000
+      internalID: 2139159891599466125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_18
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 205
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0009b4cb1dcd510800000000000000
+      internalID: 1575364576324616433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_19
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 203
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1e6eee31f7e9510800000000000000
+      internalID: 1557822244705984930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_20
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 213
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7bc2eed81d9f840800000000000000
+      internalID: 5258464447448266704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_21
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 226
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0f34af90accf650800000000000000
+      internalID: 6268106925595160818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_22
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 165
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bc862c706f62190800000000000000
+      internalID: -7987426375908144251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_23
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 175
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a426320de0b7d3a40800000000000000
+      internalID: 5349567235937755722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_24
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 146
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a74afe34f962680800000000000000
+      internalID: -8780155309380044129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_25
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 149
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5158c9fb37c8210800000000000000
+      internalID: 1336570456224110036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garden_map3_tree_26
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 131
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42aa42c198310e0d0800000000000000
+      internalID: -3395692639433741788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

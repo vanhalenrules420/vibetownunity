@@ -17,6 +17,8 @@ public class NPCInteraction : MonoBehaviour
     public GameObject ChatPanel;
     public Button nextButton;
 
+    public string defaultDialog;
+
     public LLMCharacter lLMCharacter;
     //  public GameObject interactionIcon;
 
@@ -142,6 +144,7 @@ public class NPCInteraction : MonoBehaviour
 
         if (playerNearby && Input.GetKeyDown(KeyCode.E))
         {
+            AIText.text = defaultDialog;
             ShowChatPanel();
             playerCantMove = true;
         }
