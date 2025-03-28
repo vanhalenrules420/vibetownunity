@@ -784,7 +784,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      garden_map3_tree_0: -3435102809620381087
+      garden_map3_tree_1: -8606287376576241662
+      garden_map3_tree_10: -7935947881604562319
+      garden_map3_tree_11: 2649505567963218831
+      garden_map3_tree_12: -7615357531340527366
+      garden_map3_tree_13: -6415559053541551842
+      garden_map3_tree_14: -4095353794642345457
+      garden_map3_tree_15: -8584663504424200046
+      garden_map3_tree_16: 6837561473120870842
+      garden_map3_tree_17: 2139159891599466125
+      garden_map3_tree_18: 1575364576324616433
+      garden_map3_tree_19: 1557822244705984930
+      garden_map3_tree_2: 3803551457713750772
+      garden_map3_tree_20: 5258464447448266704
+      garden_map3_tree_21: 6268106925595160818
+      garden_map3_tree_22: -7987426375908144251
+      garden_map3_tree_23: 5349567235937755722
+      garden_map3_tree_24: -8780155309380044129
+      garden_map3_tree_25: 1336570456224110036
+      garden_map3_tree_26: -3395692639433741788
+      garden_map3_tree_3: -3525258656449110503
+      garden_map3_tree_4: 4163979179672889338
+      garden_map3_tree_5: -1374519122409203412
+      garden_map3_tree_6: -3911744938476119032
+      garden_map3_tree_7: 7958260924314570969
+      garden_map3_tree_8: 4715171464364968393
+      garden_map3_tree_9: 4717755383348428766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

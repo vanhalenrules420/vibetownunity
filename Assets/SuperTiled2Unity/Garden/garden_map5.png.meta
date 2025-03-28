@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      garden_map5_0: 3054814124320739980
+      garden_map5_1: 6693324787460879237
+      garden_map5_10: 7514936475153826737
+      garden_map5_11: 2723543024169433962
+      garden_map5_12: -58125427068427370
+      garden_map5_13: 6303963021441570820
+      garden_map5_14: -6693654145584115009
+      garden_map5_15: 6500375598308931964
+      garden_map5_16: 7922624802778533876
+      garden_map5_17: 3239594612800458103
+      garden_map5_18: -7315360796187465408
+      garden_map5_19: 5478900780751162984
+      garden_map5_2: -8354034505650073602
+      garden_map5_20: 7597529044858700005
+      garden_map5_21: -7313550333946588217
+      garden_map5_22: -554436907114534686
+      garden_map5_23: -2317751979107068765
+      garden_map5_3: 2938196878933798745
+      garden_map5_4: 5981920187570105023
+      garden_map5_5: -9181018703447847244
+      garden_map5_6: -7099297549823952367
+      garden_map5_7: 2307918806311901758
+      garden_map5_8: -1269291025592390325
+      garden_map5_9: 8054496822091508580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

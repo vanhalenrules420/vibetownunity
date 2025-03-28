@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      garden_map2_0: 8502635679294717454
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
