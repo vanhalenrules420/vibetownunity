@@ -6,8 +6,6 @@ using System.Collections.Generic;
 
 public class NPCInteraction : MonoBehaviour
 {
-    //public NPCData npcData; //Scriptable object for NPC
-
     public float detectionRadius = 2f;
     public LayerMask playerLayer;
     private LLMCharacter llmCharacter;
@@ -18,13 +16,9 @@ public class NPCInteraction : MonoBehaviour
     public Button nextButton;
 
     public string defaultDialog;
-
     public LLMCharacter lLMCharacter;
-    //  public GameObject interactionIcon;
-
     public GameObject npcDialogPanel;
 
-    private Queue<string> dialogueQueue = new Queue<string>();
     private bool isDialogueActive = false;
     private bool playerNearby = false;
 
@@ -35,16 +29,11 @@ public class NPCInteraction : MonoBehaviour
         ChatPanel.SetActive(false);
         npcDialogPanel.gameObject.SetActive(false);
         nextButton.gameObject.SetActive(false);
-        // interactionIcon.SetActive(false);
 
         llmCharacter = GetComponent<LLMCharacter>();
 
         playerText.onSubmit.AddListener(onInputFieldSubmit);
-        nextButton.onClick.AddListener(ShowNextLine);
         playerText.Select();
-
-        //lLMCharacter.prompt = npcData.characterPrompt;
-        //lLMCharacter.AIName = npcData.npcName;
     }
 
     void onInputFieldSubmit(string message)
@@ -56,32 +45,8 @@ public class NPCInteraction : MonoBehaviour
 
     public void SetAIText(string text)
     {
-        dialogueQueue.Clear();
-        string[] lines = text.Split('\n');
-        foreach (string line in lines)
-        {
-            if (!string.IsNullOrWhiteSpace(line))
-            {
-                dialogueQueue.Enqueue(line.Trim());
-            }
-        }
-
+        AIText.text = text; // Menampilkan seluruh teks langsung tanpa queue
         isDialogueActive = true;
-        AIText.text = "";
-        ShowNextLine();
-    }
-
-    public void ShowNextLine()
-    {
-        if (dialogueQueue.Count > 0)
-        {
-            AIText.text = dialogueQueue.Dequeue();
-            nextButton.gameObject.SetActive(dialogueQueue.Count > 0);
-        }
-        else
-        {
-            EndDialogue();
-        }
     }
 
     void EndDialogue()
@@ -89,16 +54,13 @@ public class NPCInteraction : MonoBehaviour
         isDialogueActive = false;
         playerText.interactable = true;
         playerText.Select();
-        playerText.text = "Hello";
-        nextButton.gameObject.SetActive(false);
+        playerText.text = ""; // Mengosongkan teks setelah dialog selesai
     }
 
     public void AIReplyComplete()
     {
-        if (!isDialogueActive)
-        {
-            EndDialogue();
-        }
+        isDialogueActive = false; // Memastikan dialog benar-benar berakhir
+        EndDialogue();
     }
 
     public void CancelRequests()
@@ -112,9 +74,7 @@ public class NPCInteraction : MonoBehaviour
         isDialogueActive = false;
         ChatPanel.SetActive(false);
         npcDialogPanel.SetActive(false);
-        //interactionIcon.SetActive(false);
-        nextButton.gameObject.SetActive(false);
-        AIText.text = "Hello"; //back to default text
+        AIText.text = "Hello";
         playerText.text = "";
         playerText.interactable = true;
         playerCantMove = false;
@@ -123,11 +83,6 @@ public class NPCInteraction : MonoBehaviour
     void Update()
     {
         DetectPlayer();
-
-        if (isDialogueActive && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0)))
-        {
-            ShowNextLine();
-        }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -140,9 +95,7 @@ public class NPCInteraction : MonoBehaviour
         Collider2D player = Physics2D.OverlapCircle(transform.position, detectionRadius, playerLayer);
         playerNearby = (player != null);
 
-        //interactionIcon.SetActive(playerNearby);
-
-        if (playerNearby && Input.GetKeyDown(KeyCode.E))
+        if (playerNearby && Input.GetKeyDown(KeyCode.E) && !playerText.isFocused) // Tambahkan pengecekan agar tidak mengganggu input
         {
             AIText.text = defaultDialog;
             ShowChatPanel();
