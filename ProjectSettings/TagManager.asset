@@ -50,5 +50,8 @@ TagManager:
   - name: Walls
     uniqueID: 3707158193
     locked: 0
+  - name: Player
+    uniqueID: 2139224527
+    locked: 0
   m_RenderingLayers:
   - Default
