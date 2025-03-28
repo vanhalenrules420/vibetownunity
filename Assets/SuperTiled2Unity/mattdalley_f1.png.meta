@@ -466,6 +466,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3122,7 +3135,127 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mattdalley_f1_0: -6842656977789882874
+      mattdalley_f1_1: -4285696935675022279
+      mattdalley_f1_10: -7574971855525746981
+      mattdalley_f1_100: 1565838726756329355
+      mattdalley_f1_101: 2883762897503012568
+      mattdalley_f1_102: 8271444343858179059
+      mattdalley_f1_103: -286501555675471090
+      mattdalley_f1_104: -9147198050337560026
+      mattdalley_f1_105: 1371524529321642399
+      mattdalley_f1_106: 768059143259686018
+      mattdalley_f1_107: 6248201027410394329
+      mattdalley_f1_108: -6337303407147125739
+      mattdalley_f1_109: 5898735093839882927
+      mattdalley_f1_11: -1356618857102885147
+      mattdalley_f1_110: -7491626935171123441
+      mattdalley_f1_111: -1599401420961836839
+      mattdalley_f1_112: -4570270330544675833
+      mattdalley_f1_113: -5037409481675873327
+      mattdalley_f1_114: -905599602643881043
+      mattdalley_f1_115: 5441219861261478358
+      mattdalley_f1_116: 2161656197982793537
+      mattdalley_f1_117: 8481995143703521891
+      mattdalley_f1_118: -4837124675917994253
+      mattdalley_f1_119: 1810443119922852326
+      mattdalley_f1_12: -3155659396596571057
+      mattdalley_f1_13: -6055101958177123247
+      mattdalley_f1_14: 3303753866053149780
+      mattdalley_f1_15: -3754577238951507022
+      mattdalley_f1_16: 8657943650424746330
+      mattdalley_f1_17: 3611669572241636645
+      mattdalley_f1_18: -7356223879803816561
+      mattdalley_f1_19: -1686526219665836764
+      mattdalley_f1_2: -7984726092159361082
+      mattdalley_f1_20: 1569677166520490592
+      mattdalley_f1_21: -1990977210937292630
+      mattdalley_f1_22: -821780582121935437
+      mattdalley_f1_23: 8107225574604916220
+      mattdalley_f1_24: -542259889927015311
+      mattdalley_f1_25: -7166860055509971340
+      mattdalley_f1_26: -4674500310217884998
+      mattdalley_f1_27: -5003010508081606504
+      mattdalley_f1_28: -1241536473289086399
+      mattdalley_f1_29: 910639098526683115
+      mattdalley_f1_3: 7002990199223819520
+      mattdalley_f1_30: 2224572562323471018
+      mattdalley_f1_31: 6772035353806706582
+      mattdalley_f1_32: -751552766932509044
+      mattdalley_f1_33: 4781054854031350796
+      mattdalley_f1_34: 4817816385682262624
+      mattdalley_f1_35: 7466897143828483605
+      mattdalley_f1_36: 1936086782510542119
+      mattdalley_f1_37: -4646711454910470005
+      mattdalley_f1_38: -1870254284655599979
+      mattdalley_f1_39: 9214599444894103525
+      mattdalley_f1_4: 675814440578907286
+      mattdalley_f1_40: 5674557298750409285
+      mattdalley_f1_41: -2024407692736009042
+      mattdalley_f1_42: -41066987886859398
+      mattdalley_f1_43: -3716034685085884372
+      mattdalley_f1_44: 6379327625860209740
+      mattdalley_f1_45: -1369682467602494643
+      mattdalley_f1_46: -2654764705409700866
+      mattdalley_f1_47: 6160627332171518622
+      mattdalley_f1_48: 1020666917630809452
+      mattdalley_f1_49: 2352557521532596778
+      mattdalley_f1_5: 6076273396295745152
+      mattdalley_f1_50: 7301871334347070019
+      mattdalley_f1_51: 4581065200664768
+      mattdalley_f1_52: -8476614944656346157
+      mattdalley_f1_53: 6968654009883373858
+      mattdalley_f1_54: 7011394801204516243
+      mattdalley_f1_55: -1903076579950912942
+      mattdalley_f1_56: 5606914775878293549
+      mattdalley_f1_57: 3281894080698423974
+      mattdalley_f1_58: -7861855012085203062
+      mattdalley_f1_59: -3824039004740690373
+      mattdalley_f1_6: 8449993139585898979
+      mattdalley_f1_60: -4409729202671039758
+      mattdalley_f1_61: -788475372431382674
+      mattdalley_f1_62: -4594025478289409233
+      mattdalley_f1_63: 4403307144494109287
+      mattdalley_f1_64: 4865444505546857561
+      mattdalley_f1_65: -5818018731675831027
+      mattdalley_f1_66: -1478229038369168010
+      mattdalley_f1_67: -2677580883106021063
+      mattdalley_f1_68: 1033550022969035415
+      mattdalley_f1_69: -8020456661122427000
+      mattdalley_f1_7: -3731625845261186276
+      mattdalley_f1_70: 4264242923439164708
+      mattdalley_f1_71: 1174365865455241119
+      mattdalley_f1_72: -8547886029031910779
+      mattdalley_f1_73: -8805696179932221052
+      mattdalley_f1_74: 2250600895452635381
+      mattdalley_f1_75: -3261422627673596942
+      mattdalley_f1_76: 9105489329654030862
+      mattdalley_f1_77: 2825633481825725688
+      mattdalley_f1_78: 5919878257263318660
+      mattdalley_f1_79: 7788481980523649973
+      mattdalley_f1_8: 7135251627584812003
+      mattdalley_f1_80: 7806951146291300681
+      mattdalley_f1_81: 352812617148152630
+      mattdalley_f1_82: 6287626147877407539
+      mattdalley_f1_83: 8524974164456772058
+      mattdalley_f1_84: -616481592393373160
+      mattdalley_f1_85: -7775552899242740149
+      mattdalley_f1_86: 9212777428933794234
+      mattdalley_f1_87: -3230891996499413498
+      mattdalley_f1_88: 2348717623111355740
+      mattdalley_f1_89: 2715787847586110676
+      mattdalley_f1_9: -3616893845972655253
+      mattdalley_f1_90: -6652945074402976938
+      mattdalley_f1_91: -895721377947744306
+      mattdalley_f1_92: 3058273164221050997
+      mattdalley_f1_93: -8597716754864219519
+      mattdalley_f1_94: -7963639457577983309
+      mattdalley_f1_95: -6643139908415777960
+      mattdalley_f1_96: -6835596524210457905
+      mattdalley_f1_97: 8762534744768900381
+      mattdalley_f1_98: 206097947289336563
+      mattdalley_f1_99: -1778308928478984816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

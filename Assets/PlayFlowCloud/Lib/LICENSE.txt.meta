@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7520c651903d88f499fa37b8608241aa
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206903
+  packageName: PlayFlow Cloud
+  packageVersion: 13.0
+  assetPath: Assets/PlayFlowCloud/Lib/LICENSE.txt
+  uploadId: 728487

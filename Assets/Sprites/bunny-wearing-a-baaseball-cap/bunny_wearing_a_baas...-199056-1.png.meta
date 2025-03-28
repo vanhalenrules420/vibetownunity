@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: fe8afcbdcbefb4b6395e3046b636a2e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8132226387770563387
+    second: bunny_wearing_a_baas...-199056-1_0
+  - first:
+      213: 8496485091239563486
+    second: bunny_wearing_a_baas...-199056-1_1
+  - first:
+      213: -2928473241171689644
+    second: bunny_wearing_a_baas...-199056-1_2
+  - first:
+      213: 6894078998574560885
+    second: bunny_wearing_a_baas...-199056-1_3
+  - first:
+      213: 5775606589237931663
+    second: bunny_wearing_a_baas...-199056-1_4
+  - first:
+      213: 7141889062797254096
+    second: bunny_wearing_a_baas...-199056-1_5
+  - first:
+      213: 2747005820232625531
+    second: bunny_wearing_a_baas...-199056-1_6
+  - first:
+      213: 930690324601868501
+    second: bunny_wearing_a_baas...-199056-1_7
+  - first:
+      213: 6608186698355575904
+    second: bunny_wearing_a_baas...-199056-1_8
+  - first:
+      213: -6897744380622519234
+    second: bunny_wearing_a_baas...-199056-1_9
+  - first:
+      213: -8701156925117386272
+    second: bunny_wearing_a_baas...-199056-1_10
+  - first:
+      213: -1961302861717067887
+    second: bunny_wearing_a_baas...-199056-1_11
+  - first:
+      213: -3923198139048231541
+    second: bunny_wearing_a_baas...-199056-1_12
+  - first:
+      213: 1618375139503414047
+    second: bunny_wearing_a_baas...-199056-1_13
+  - first:
+      213: -4596259725531809479
+    second: bunny_wearing_a_baas...-199056-1_14
+  - first:
+      213: -6745590340906685509
+    second: bunny_wearing_a_baas...-199056-1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 591
+        width: 86
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4a0ebcf27842f80800000000000000
+      internalID: -8132226387770563387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 595
+        width: 86
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed09cb69c2499e570800000000000000
+      internalID: 8496485091239563486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 591
+        width: 86
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f79b55a19fb57d0800000000000000
+      internalID: -2928473241171689644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 595
+        width: 86
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5767483a250bcaf50800000000000000
+      internalID: 6894078998574560885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 403
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eaee9a793172050800000000000000
+      internalID: 5775606589237931663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 403
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd174563461d1360800000000000000
+      internalID: 7141889062797254096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 403
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d65ee3d335f1620800000000000000
+      internalID: 2747005820232625531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 403
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d099c15be97aec00800000000000000
+      internalID: 930690324601868501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 207
+        width: 86
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c02fc5acef4bb50800000000000000
+      internalID: 6608186698355575904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 211
+        width: 86
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e344c89180a4640a0800000000000000
+      internalID: -6897744380622519234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 207
+        width: 86
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1b27790e74f3780800000000000000
+      internalID: -8701156925117386272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 211
+        width: 86
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197a56e407d08c4e0800000000000000
+      internalID: -1961302861717067887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d7e8a14100e89c0800000000000000
+      internalID: -3923198139048231541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b9c676d9f957610800000000000000
+      internalID: 1618375139503414047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 19
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939fd34b12ec630c0800000000000000
+      internalID: -4596259725531809479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunny_wearing_a_baas...-199056-1_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 19
+        width: 82
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb63f91359d262a0800000000000000
+      internalID: -6745590340906685509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bunny_wearing_a_baas...-199056-1_0: -8132226387770563387
+      bunny_wearing_a_baas...-199056-1_1: 8496485091239563486
+      bunny_wearing_a_baas...-199056-1_10: -8701156925117386272
+      bunny_wearing_a_baas...-199056-1_11: -1961302861717067887
+      bunny_wearing_a_baas...-199056-1_12: -3923198139048231541
+      bunny_wearing_a_baas...-199056-1_13: 1618375139503414047
+      bunny_wearing_a_baas...-199056-1_14: -4596259725531809479
+      bunny_wearing_a_baas...-199056-1_15: -6745590340906685509
+      bunny_wearing_a_baas...-199056-1_2: -2928473241171689644
+      bunny_wearing_a_baas...-199056-1_3: 6894078998574560885
+      bunny_wearing_a_baas...-199056-1_4: 5775606589237931663
+      bunny_wearing_a_baas...-199056-1_5: 7141889062797254096
+      bunny_wearing_a_baas...-199056-1_6: 2747005820232625531
+      bunny_wearing_a_baas...-199056-1_7: 930690324601868501
+      bunny_wearing_a_baas...-199056-1_8: 6608186698355575904
+      bunny_wearing_a_baas...-199056-1_9: -6897744380622519234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
