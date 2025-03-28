@@ -13,7 +13,7 @@ public class NPCInteraction : MonoBehaviour
     public TMP_InputField playerText;
     public TMP_Text AIText;
     public GameObject ChatPanel;
-    public Button nextButton;
+    public Button submitButton; 
 
     public string defaultDialog;
     public LLMCharacter lLMCharacter;
@@ -28,24 +28,34 @@ public class NPCInteraction : MonoBehaviour
     {
         ChatPanel.SetActive(false);
         npcDialogPanel.gameObject.SetActive(false);
-        nextButton.gameObject.SetActive(false);
 
         llmCharacter = GetComponent<LLMCharacter>();
 
         playerText.onSubmit.AddListener(onInputFieldSubmit);
+        submitButton.onClick.AddListener(SubmitText); 
+        submitButton.interactable = true;
         playerText.Select();
     }
 
     void onInputFieldSubmit(string message)
     {
-        playerText.interactable = false;
-        AIText.text = "...";
-        _ = llmCharacter.Chat(message, SetAIText, AIReplyComplete);
+        SubmitText();
+    }
+
+    public void SubmitText()
+    {
+        if (!string.IsNullOrWhiteSpace(playerText.text))
+        {
+            playerText.interactable = false;
+            submitButton.interactable = false; 
+            AIText.text = "...";
+            _ = llmCharacter.Chat(playerText.text, SetAIText, AIReplyComplete);
+        }
     }
 
     public void SetAIText(string text)
     {
-        AIText.text = text; // Menampilkan seluruh teks langsung tanpa queue
+        AIText.text = text;
         isDialogueActive = true;
     }
 
@@ -53,13 +63,14 @@ public class NPCInteraction : MonoBehaviour
     {
         isDialogueActive = false;
         playerText.interactable = true;
+        submitButton.interactable = true; 
         playerText.Select();
-        playerText.text = ""; // Mengosongkan teks setelah dialog selesai
+        playerText.text = ""; 
     }
 
     public void AIReplyComplete()
     {
-        isDialogueActive = false; // Memastikan dialog benar-benar berakhir
+        isDialogueActive = false; 
         EndDialogue();
     }
 
@@ -77,6 +88,7 @@ public class NPCInteraction : MonoBehaviour
         AIText.text = "Hello";
         playerText.text = "";
         playerText.interactable = true;
+        submitButton.interactable = true;
         playerCantMove = false;
     }
 
@@ -95,7 +107,7 @@ public class NPCInteraction : MonoBehaviour
         Collider2D player = Physics2D.OverlapCircle(transform.position, detectionRadius, playerLayer);
         playerNearby = (player != null);
 
-        if (playerNearby && Input.GetKeyDown(KeyCode.E) && !playerText.isFocused) // Tambahkan pengecekan agar tidak mengganggu input
+        if (playerNearby && Input.GetKeyDown(KeyCode.E) && !playerText.isFocused) 
         {
             AIText.text = defaultDialog;
             ShowChatPanel();
