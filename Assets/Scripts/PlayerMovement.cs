@@ -36,11 +36,26 @@ public class PlayerMovement : NetworkBehaviour
             CmdMove(moveInput);
             lastMoveInput = moveInput;
         }
+
+        if (NPCInteraction.playerCantMove)
+        {
+            rb.linearVelocity = Vector2.zero;
+            animator.SetFloat("Speed", 0);
+            return;
+        }
     }
 
     [Command]
     private void CmdMove(Vector2 input)
     {
+        if (NPCInteraction.playerCantMove)
+        {
+            rb.linearVelocity = Vector2.zero;
+            animator.SetFloat("Speed", 0);
+            return;
+        }
+
+
         if (input.magnitude > 0)
         {
             lastMoveDirection = input;
