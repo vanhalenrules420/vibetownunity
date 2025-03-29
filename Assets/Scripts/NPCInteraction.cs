@@ -10,7 +10,7 @@ public class NPCInteraction : MonoBehaviour
     public LayerMask playerLayer;
     private LLMCharacter llmCharacter;
 
-    public TMP_InputField playerText;
+    public TMP_InputField playerText; 
     public TMP_Text AIText;
     public GameObject ChatPanel;
     public Button submitButton;
@@ -24,7 +24,56 @@ public class NPCInteraction : MonoBehaviour
     public static bool playerCantMove { get; private set; } = false;
 
     private NPCMovement npcMovement; 
-    private bool hadNPCMovement; 
+    private bool hadNPCMovement;
+
+    void Awake()
+    {
+        if (ChatPanel == null)
+            ChatPanel = GameObject.Find("ChatPanel");
+
+        if (npcDialogPanel == null)
+            npcDialogPanel = GameObject.Find("NPCDIalogPanel");
+
+        if (playerText == null)
+        {
+            GameObject inputFieldObject = GameObject.Find("InputField (TMP)");
+            if (inputFieldObject != null)
+            {
+                playerText = inputFieldObject.GetComponent<TMP_InputField>();
+            }
+            else
+            {
+                Debug.LogError("PlayerText TMP_InputField not found in the scene!");
+            }
+        }
+
+        if (AIText == null)
+        {
+            GameObject aiTextObject = GameObject.Find("NPCDialog");
+            if (aiTextObject != null)
+            {
+                AIText = aiTextObject.GetComponent<TMP_Text>();
+            }
+            else
+            {
+                Debug.LogError("AIText TMP_Text not found in the scene!");
+            }
+        }
+
+        if (submitButton == null)
+        {
+            GameObject buttonObject = GameObject.Find("Button_Return");
+            if (buttonObject != null)
+            {
+                submitButton = buttonObject.GetComponent<Button>();
+            }
+            else
+            {
+                Debug.LogError("SubmitButton Button not found in the scene!");
+            }
+        }
+    }
+
 
     void Start()
     {
