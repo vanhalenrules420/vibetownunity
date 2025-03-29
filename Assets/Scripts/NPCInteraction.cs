@@ -23,6 +23,9 @@ public class NPCInteraction : MonoBehaviour
 
     public static bool playerCantMove { get; private set; } = false;
 
+    private NPCMovement npcMovement; 
+    private bool hadNPCMovement; 
+
     void Start()
     {
         ChatPanel.SetActive(false);
@@ -34,6 +37,9 @@ public class NPCInteraction : MonoBehaviour
         submitButton.onClick.AddListener(SubmitText);
         submitButton.interactable = true;
         playerText.Select();
+
+        npcMovement = GetComponent<NPCMovement>();
+        hadNPCMovement = npcMovement != null;
     }
 
     void OnInputFieldSubmit(string message)
@@ -99,6 +105,11 @@ public class NPCInteraction : MonoBehaviour
             submitButton.interactable = true;
             playerCantMove = false;
 
+            if (npcMovement != null)
+            {
+                npcMovement.ResumeMoving(); // Resume NPC movement
+            }
+
             NPCManager.Instance.ClearActiveNPC(this); // Hapus NPC aktif saat dialog selesai
         }
     }
@@ -134,6 +145,11 @@ public class NPCInteraction : MonoBehaviour
     {
         ChatPanel.SetActive(true);
         npcDialogPanel.SetActive(true);
+
+        if (npcMovement != null)
+        {
+            npcMovement.StopMoving(); // Stop NPC when talking
+        }
     }
 
     void OnDrawGizmosSelected()
