@@ -4,43 +4,40 @@ using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Unity.Services.Vivox;
 using System.Threading.Tasks;
+using Mirror;
 
-public class VivoxManager : MonoBehaviour
+public class VivoxManager : NetworkBehaviour
 {
-    public static VivoxManager Instance;
-
     private string channelName = "VibeTown-MainChannel";
 
     float _nextPosUpdate;
-    GameObject _localPlayerGameObject;
-    string _playerName;
+
+    [SyncVar] public string _playerName;
+    [SyncVar] public string playerID;
 
     async void Start()
     {
-        Instance = this;
+        if(!isLocalPlayer) return;
 
         await UnityServices.InitializeAsync();
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
+        GameManager.Instance.voiceChatStatusText.text = "Initializing Unity Services";
 
         await VivoxService.Instance.InitializeAsync();
+        GameManager.Instance.voiceChatStatusText.text = "Initializing Vivox";
 
         VivoxService.Instance.LoggedIn += onLoggedIn;
         VivoxService.Instance.LoggedOut += onLoggedOut;
 
-    }
+        _playerName = "Player" + GetComponent<NetworkIdentity>().netId;
 
-    public void SetLocalPlayer(GameObject player, ulong clientId)
-    {
-        _localPlayerGameObject = player;
-        _playerName = "Player" + clientId;
-
-        LoginUserAsync();
+        await LoginUserAsync();
     }
 
 
     async Task LoginUserAsync()
     {
-        Debug.Log(_playerName);
+        GameManager.Instance.voiceChatStatusText.text = "Logging In Vivox";
         
         // For this example, the VivoxService is initialized.
         var loginOptions = new LoginOptions()
@@ -53,7 +50,8 @@ public class VivoxManager : MonoBehaviour
 
     private void onLoggedIn()
     {
-        Debug.Log("Logged In");
+        GameManager.Instance.voiceChatStatusText.text = "Logged In Vivox";
+        playerID = AuthenticationService.Instance.PlayerId;
         JoinPositionalChannel();
 
     }
@@ -65,64 +63,54 @@ public class VivoxManager : MonoBehaviour
 
        public void JoinPositionalChannel()
     {
+        GameManager.Instance.voiceChatStatusText.text = "Joining Channel";
+
         VivoxService.Instance.JoinGroupChannelAsync(
             channelName, 
-            ChatCapability.TextAndAudio
-            ); 
+            ChatCapability.TextAndAudio); 
     }
 
     void Update()
     {
         if(VivoxService.Instance == null) return;
+        if(!isLocalPlayer) return;
         
         if (Time.time > _nextPosUpdate && VivoxService.Instance.IsLoggedIn)
         {
+            GameManager.Instance.voiceChatStatusText.text = "Voice Enabled";
             AdjustVoiceForProximity();
             _nextPosUpdate = Time.time + 0.3f; // Update every 0.3 seconds
         }
     }
 
     void AdjustVoiceForProximity()
-{
-    if (_localPlayerGameObject == null) return;
-
+    {
     foreach (var player in GameObject.FindGameObjectsWithTag("Player"))
     {
-        if (player != _localPlayerGameObject)
+        if (player != gameObject)
         {
 
-        float distance = Vector3.Distance(_localPlayerGameObject.transform.position, player.transform.position);
+        float distance = Vector3.Distance(transform.position, player.transform.position);
 
         if (VivoxService.Instance.ActiveChannels.ContainsKey(channelName))
         {
             foreach (var participant in VivoxService.Instance.ActiveChannels[channelName])
             {                
-                // if(participant.DisplayName == "Player" + player.GetComponent<NetworkObject>().OwnerClientId)
-                // {
-                //     participant.SetLocalVolume((int)distance * -2);
-                // }
+                Debug.Log(participant.PlayerId + "|" + player.GetComponent<VivoxManager>().playerID);
+
+                if(participant.PlayerId == player.GetComponent<VivoxManager>().playerID)
+                {
+                    participant.SetLocalVolume((int)distance * -2);
+                }
             }
         }
         }
     }
 }
 
-public void MuteToggle()
-{
-    if (VivoxService.Instance.IsInputDeviceMuted)
-    {
-        VivoxService.Instance.UnmuteInputDevice();
-        Debug.Log("Microphone Unmuted");
-    }
-    else
-    {
-        VivoxService.Instance.MuteInputDevice();
-        Debug.Log("Microphone Muted");
-    }
-}
-
 private async void OnDestroy()
 {
+    if(VivoxService.Instance == null) return;
 
     if (VivoxService.Instance.IsLoggedIn)
     {

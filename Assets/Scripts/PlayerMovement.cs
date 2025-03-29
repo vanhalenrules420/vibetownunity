@@ -45,6 +45,15 @@ public class PlayerMovement : NetworkBehaviour
         }
     }
 
+    public void Move(Vector2 input)
+    {
+        if(lastMoveInput != input)
+        {
+            CmdMove(input);
+            lastMoveInput = input;
+        }
+    }
+    
     [Command]
     private void CmdMove(Vector2 input)
     {

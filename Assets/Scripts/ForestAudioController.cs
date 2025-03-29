@@ -1,12 +1,14 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class ForestAudioController : MonoBehaviour
 {
     public AudioSource forestSound;  // Reference to the AudioSource
+    
+    [Header("UI")]
     public Button muteButton;       // Reference to the Mute/Unmute Button
-    public TextMeshProUGUI buttonText; 
+    public TextMeshProUGUI buttonText;         // Reference to the Button Text
 
     private bool isMuted = false;   // Track mute state
 
@@ -40,7 +42,7 @@ public class ForestAudioController : MonoBehaviour
     {
         if (buttonText != null)
         {
-            buttonText.text = isMuted ? "Unmute" : "Mute";
+            buttonText.text = isMuted ? "Unmute Audio" : "Mute Audio";
         }
     }
 }
