@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      marcus_aurelius_statue_grey_transparent_0: 6135836910602303039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

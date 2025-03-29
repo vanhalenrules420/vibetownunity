@@ -4990,8 +4990,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1185476480}
   m_HandleRect: {fileID: 1185476479}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.779259
+  m_Value: 1.0000005
+  m_Size: 0.77925897
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5323,6 +5323,7 @@ MonoBehaviour:
   forestSound: {fileID: 1628831180}
   muteButton: {fileID: 48470456}
   buttonText: {fileID: 2111683084}
+  isMuted: 0
 --- !u!4 &1575144897
 Transform:
   m_ObjectHideFlags: 0
@@ -5609,7 +5610,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 15083d2c7ed60254596243bef1b32927, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 15083d2c7ed60254596243bef1b32927, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -6046,6 +6047,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cinemachineCamera: {fileID: 394961568}
+  voiceChatStatusText: {fileID: 0}
+  muteButtonText: {fileID: 0}
 --- !u!1 &1738261443
 GameObject:
   m_ObjectHideFlags: 0
