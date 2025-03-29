@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 214acfd2042ed934f84019b9f67806d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2324860888845570799
+    second: happy_frog-451092-0_0
+  - first:
+      213: 7740973137926101866
+    second: happy_frog-451092-0_1
+  - first:
+      213: -4894932946355061029
+    second: happy_frog-451092-0_2
+  - first:
+      213: 4670156586436398385
+    second: happy_frog-451092-0_3
+  - first:
+      213: 3137643284879670660
+    second: happy_frog-451092-0_4
+  - first:
+      213: 2496322984542180287
+    second: happy_frog-451092-0_5
+  - first:
+      213: 2554209752459267527
+    second: happy_frog-451092-0_6
+  - first:
+      213: -7396616601702426593
+    second: happy_frog-451092-0_7
+  - first:
+      213: -3337192657292154767
+    second: happy_frog-451092-0_8
+  - first:
+      213: -8855558869241770289
+    second: happy_frog-451092-0_9
+  - first:
+      213: 9000326165217872098
+    second: happy_frog-451092-0_10
+  - first:
+      213: -6444980653846442256
+    second: happy_frog-451092-0_11
+  - first:
+      213: 7404864130343930718
+    second: happy_frog-451092-0_12
+  - first:
+      213: 4963031543154876509
+    second: happy_frog-451092-0_13
+  - first:
+      213: -346652345115553896
+    second: happy_frog-451092-0_14
+  - first:
+      213: 1415321627151406039
+    second: happy_frog-451092-0_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: happy_frog-451092-0_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 600
+        width: 120
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afcdec4ee8210244b57fcfa206ef761
+      internalID: -1131367216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 604
+        width: 124
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1767d3468247e1543903d88ae77b897a
+      internalID: 741253988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 600
+        width: 120
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395544e8005984944b380232f8bd7938
+      internalID: -504770372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 604
+        width: 124
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eed5a5ecc49224db1e0a0a6d73f081
+      internalID: -278717580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 404
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fa5e923801fa745af94329bc471986
+      internalID: -566752577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 404
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eef882127d0b04b8afa3449cb44aff
+      internalID: -133644508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 404
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4234af483d5a044a0f33b2bd48b67f
+      internalID: -864912795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_7
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 404
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efa55818dc699c49807912e84965697
+      internalID: 903520451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 212
+        width: 128
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1712266d17b825d4b8f977a5061b3eba
+      internalID: 811026571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 212
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4890290cdf461034b8e90eeb26108be4
+      internalID: 1501987780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_10
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 212
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ec2ba96f8ccc8439db4defb76c98c9
+      internalID: -1123181284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_11
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 212
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a89f7374c244544d93c0f993ea27bc9
+      internalID: 322295651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 20
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddf21511a7acc243bc87b486f1b5e7e
+      internalID: 1721767251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 20
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3e483ad9ac99d4fbb3239639ebe1db
+      internalID: -679897623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_14
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 20
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cdd8b9a5f7aa442950e568d8b6ca84
+      internalID: -314541858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_frog-451092-0_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 20
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7296e4a0fab202446bb80c961d384fc2
+      internalID: 1785179675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa094cdb2a9942b4184f6ad5f233a79a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      happy_frog-451092-0_0: -1131367216
+      happy_frog-451092-0_1: 741253988
+      happy_frog-451092-0_10: -1123181284
+      happy_frog-451092-0_11: 322295651
+      happy_frog-451092-0_12: 1721767251
+      happy_frog-451092-0_13: -679897623
+      happy_frog-451092-0_14: -314541858
+      happy_frog-451092-0_15: 1785179675
+      happy_frog-451092-0_2: -504770372
+      happy_frog-451092-0_3: -278717580
+      happy_frog-451092-0_4: -566752577
+      happy_frog-451092-0_5: -133644508
+      happy_frog-451092-0_6: -864912795
+      happy_frog-451092-0_7: 903520451
+      happy_frog-451092-0_8: 811026571
+      happy_frog-451092-0_9: 1501987780
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
